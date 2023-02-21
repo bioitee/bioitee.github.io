@@ -7,25 +7,25 @@ on:
 
 jobs:
   deploy: 
-    runs-on: ubuntu-20.04	# 在什么环境运行任务
+    runs-on: ubuntu-20.04               # 在什么环境运行任务
     steps:
       - uses: actions/checkout@v3	# 引用actions/checkout这个action，与所在的github仓库同名
         with:
-         submodules: true  # Fetch Hugo themes (true OR recursive) 获取submodule主题
-         fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+         submodules: true               # Fetch Hugo themes (true OR recursive) 获取submodule主题
+         fetch-depth: 0                 # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo	# 步骤名自取
-        uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
+      - name: Setup Hugo	        # 步骤名自取
+        uses: peaceiris/actions-hugo@v2 # hugo官方提供的action，用于在任务环境中获取hugo
         with:
           hugo-version: '0.89.4'	# 获取指定版本的hugo
           # extended: true
 
       - name: Build 
-        #run: hugo --minify	# 使用 hugo 构建静态网页
-        run: hugo         	# 使用hugo构建静态网页
+        #run: hugo --minify	        # 使用hugo构建静态网页
+        run: hugo         	        # 使用hugo构建静态网页
 
-      - name: Deploy        # 部署至当前仓库的其他分支
-        uses: peaceiris/actions-gh-pages@v3               # 一个自动发布github pages的action
+      - name: Deploy                    # 部署至当前仓库的其他分支
+        uses: peaceiris/actions-gh-pages@v3                     # 一个自动发布github pages的action
         with:
           external_repository: bioitee/bioitee.github.io	# 发布到哪个repo
           #创建personal_token：
@@ -33,8 +33,9 @@ jobs:
           #粘贴personal_token：
           #进入repo的Settings->Secrets一栏，选择New repository secret
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}	# 发布到其他repo需要提供上面生成的personal access token
-          publish_dir: ./public	    # 注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
-          publish_branch: gh-pages	# 发布到哪个branch
+          #注意这里指的是要发布哪个文件夹的内容，而不是指发布到目的仓库的什么位置，因为hugo默认生成静态网页到public文件夹，所以这里发布public文件夹里的内容
+          publish_dir: ./public
+          publish_branch: gh-pages      # 发布到哪个branch
           force_orphan: true
           full_commit_message: ${{ github.event.head_commit.message }}
     
