@@ -9,7 +9,7 @@ date: "2019-08-12"
 
 <p style="text-align:center; margin:30px;">
 <a style="border-bottom:none" href="https://www.yuque.com/bioitee" target="_blank"><img src="https://img.shields.io/badge/BioIT-语雀知识库-blueviolet" alt="yuque" title="yuque"></a>
-<a style="border-bottom:none" href="https://apps-db.oss-cn-shenzhen.aliyuncs.com/bioitee/bioitee.png" target="_blank"><img src="https://img.shields.io/badge/BioITee-微信公众号-important"></a>
+<a style="border-bottom:none" href="https://weixin.sogou.com/weixin?query=bioitee" target="_blank"><img src="https://img.shields.io/badge/BioITee-微信公众号-important"></a>
 <a style="border-bottom:none" href="https://github.com/orgs/bioitee/discussions" target="_blank"><img src="https://img.shields.io/badge/GitHub-Discussions-blue"></a>
 <a style="border-bottom:none" href="https://www.bioitee.com/" target="_blank"><img src="https://img.shields.io/badge/官网主页-BioIT爱好者-green"></a>
 </p>
