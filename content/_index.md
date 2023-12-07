@@ -18,7 +18,8 @@ date: "2019-08-12"
 
 我们希望能有更多 **Bio+IT** 经验的工作者，来为从事生物医学的生信人不断缩短 **BIO** 与 **IT** 专业之间的认识差距，帮助你我成长，于是才有了 **"BioIT爱好者"** 的这样一个公众号。
 
-<p style="text-align:center"><a class="fancya" data-fancybox="gallery" href="https://cos.shenlab.cn/website/portfolio/bioitee.png" target="_blank"><img src="https://cos.shenlab.cn/website/portfolio/bioitee.png" alt="BioIT爱好者公众号" title="BioIT爱好者公众号" width=300 align="center"></a></p>
+<p style="text-align:center"><a class="fancya" data-fancybox="gallery" href="https://github.com/BioITee/bioitee.github.io/assets/26101369/96b9b20f-98ed-41e3-9d30-8af7fceb01b4"
+ target="_blank"><img src="https://github.com/BioITee/bioitee.github.io/assets/26101369/96b9b20f-98ed-41e3-9d30-8af7fceb01b4" alt="BioIT爱好者公众号" title="BioIT爱好者公众号" width=300 align="center"></a></p>
 
 后缀 ee 附于动词后，表示动作的受动者；与之相应，动作的施动者则由后缀 er/or 表示。**BioITee** 的名字源于 **“从事与爱好 Bio IT 的群体”** ！
 
