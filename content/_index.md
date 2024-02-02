@@ -28,6 +28,5 @@ date: "2019-08-12"
 > 真正的美丽源于生命里的学习、成长和热爱。这就是生命的艺术。
 
 
-一个人可以走得很快,一群人才能走得更远。在这里，我们把它打造成了一个基于 [GitHub Discussions](https://github.com/orgs/bioitee/discussions) 的 [Open Community](https://github.com/bioitee)，我们希望更多志同道合的人能参与其中，做的更好，走的更远。
+一个人可以走得很快,一群人才能走得更远。在这里，我们把它打造成了一个基于 [GitHub Discussions](https://github.com/orgs/bioitee/discussions) 的 [Open Community](https://github.com/bioitee) （如果您无法访问 GitHub，也可以移步 [GitCode 社区](https://gitcode.com/bioitee) 进行查阅），我们希望更多志同道合的人能参与其中，做的更好，走的更远。
 
-如果您无法访问 GitHub，也可以移步 GitCode 进行查阅：<https://gitcode.com/bioitee>！
