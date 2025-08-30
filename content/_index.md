@@ -23,8 +23,7 @@ date: "2019-08-12"
 
 后缀 ee 附于动词后，表示动作的受动者；与之相应，动作的施动者则由后缀 er/or 表示。**BioITee** 的名字源于 **“从事与爱好 Bio IT 的群体”** ！
 
-> Real beauty comes from learning, growing, and loving in the ways of life. That is the Art of Life.
-
+> Real beauty comes from learning, growing, and loving in the ways of life. That is the Art of Life.     
 > 真正的美丽源于生命里的学习、成长和热爱。这就是生命的艺术。
 
 一个人可以走得很快,一群人才能走得更远。在这里，我们把它打造成了一个基于 [GitHub Discussions](https://github.com/orgs/bioitee/discussions) 的 [Open Community](https://github.com/bioitee) （如果您无法访问 GitHub，也可以移步 [GitCode](https://gitcode.com/bioitee) 社区进行查阅），我们希望更多志同道合的人能参与其中，做的更好，走的更远。
