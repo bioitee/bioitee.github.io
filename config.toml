@@ -37,7 +37,7 @@ publishDir = "public"
     recentPosts      = false			#首页最近更新文章
 
 [params.footer]
-    copyright = "<br/><br/>&copy; Powered by [ICS-Hugo-Theme](https://github.com/shenweiyan/ICS-Hugo-Theme) and [Hugo](https://gohugo.io) | [Bio IT 爱好者](https://www.bioitee.com/) 2018 - {year} | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>"
+    copyright = "<br/><br/>&copy; Powered by [ICS-Hugo-Theme](https://github.com/shenweiyan/ICS-Hugo-Theme) and [Hugo](https://gohugo.io) | [Bio IT 爱好者](https://bioitee.github.io) 2018 - {year} | [粤ICP备16023717号](http://beian.miit.gov.cn/)<br/>"
     #moreinfo = "<br/><br/>[![yuque](https://img.shields.io/badge/BioIT-语雀知识库-blueviolet)](https://www.yuque.com/bioitee) [![wechat](https://img.shields.io/badge/BioITee-微信公众号-important)](https://apps-db.oss-cn-shenzhen.aliyuncs.com/bioitee/bioitee.png) [![GitHub](https://img.shields.io/badge/GitHub-BioITee-blue)](https://github.com/bioitee) [![bioitee](https://img.shields.io/badge/官网主页-BioIT爱好者-green)](https://www.bioitee.com/)"
 
 [params.author]
@@ -72,4 +72,5 @@ publishDir = "public"
 
 [markup.goldmark.renderer]
     unsafe   = true
+
 
